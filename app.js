@@ -44,12 +44,13 @@ function updateWeatherDisplay(response) {
 // Function to get weather data and update the display
 const getData = async (city) => {
     try {
-        const response = await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=3fcc144c19a04b2b9b2231613232207&q=${city}&days=7`);
+        const response = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=3fcc144c19a04b2b9b2231613232207&q=${city}&days=7`);
         updateWeatherDisplay(response);
     } catch (error) {
         console.error("Error fetching weather data:", error);
     }
 };
+
 
 const input = document.querySelector('.search-box-input');
 
