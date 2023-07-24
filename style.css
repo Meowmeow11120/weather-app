@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-size: 16px;
+    background-image: url(https:wallpaperaccess.com/full/1959305.jpg);
+    background-size: cover;
+
+}
+
+
+.weather-info {
+    font-size: 1.5rem;
+    padding: 40px;
+    gap: 7px;
+}
+
+.weather-info__description {
+    font-size: 3rem;
+    padding: 10px 0;
+}
+
+.weather-info__city {
+    padding: 5px 0;
+    font-size: 2rem;
+}
+
+.weather-display {
+    padding: 50px;
+}
+
+.btns-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.day-btn {
+    font-size: 3rem;
+}
+
+
+.clicked {
+    border: 1px solid black;
+    width: fit-content;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.search-box-input {
+    background: transparent;
+    border: none;
+    height: 20px;
+    font-size: 2rem;
+    height: 30px;
+}
+
+.date {
+    font-size: 2rem;
+}
+
+.tem-high,
+.low-high {
+    font-size: 1.5rem;
+}
+
+/* For modern browsers */
+input::placeholder {
+    color: black;
+}
+
+/* For older versions of Internet Explorer (9 and below) */
+input:-ms-input-placeholder {
+    color: black;
+}
+
+/* For some other browsers (like Firefox) */
+input::-moz-placeholder {
+    color: black;
+}
+
+/* For Safari, Google Chrome, and Microsoft Edge */
+input::-webkit-input-placeholder {
+    color: black;
+}

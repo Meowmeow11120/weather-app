@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="weather-info">
+                <div class="weather-info__description">Few Clouds</div>
+                <div class="weather-info__city">Auckland</div>
+                <div class="weather-info__date">Sunday, 23rd Jul '23</div>
+                <div class="weather-info__time">10:44 am</div>
+                <div class="weather-info__temperature">14 °C</div>
+                <div class="weather-info__display">Display °F</div>
+                <div class="weather-img"></div>
+                <input class="search-box-input" placeholder="Search Location...">
+            </div>
+        </div>
+        <div class="weather-display">
+            <div class="btns-container">
+                <div class="day-btn">Daily</div>
+            </div>
+            <div class="card-container">
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
